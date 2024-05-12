@@ -1,4 +1,8 @@
-import Modulos_y_paquetes.Funciones as f
+import sys
+sys.path.append('c:/Users/Pc/Desktop/Repo GitHub/Programacion_uno')
+
+import Modulos_y_paquetes.Funciones.funciones as f
+
 
 f.mostrar_menu()
 flag = True
